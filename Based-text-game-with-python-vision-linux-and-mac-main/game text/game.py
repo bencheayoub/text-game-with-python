@@ -6,9 +6,9 @@ from Arts import *
 
 def clear():
     input("Press Enter to clear the screen...")
-    if os.name == 'nt':  # Windows
+    if os.name == 'nt':  # in the case of Windows
         subprocess.run('cls')
-    else:  # Unix/Linux/MacOS
+    else:  # in the case of Unix/Linux/MacOS
         subprocess.run('clear', shell=True)
 
 def lucky():
