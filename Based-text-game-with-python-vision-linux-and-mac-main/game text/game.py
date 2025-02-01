@@ -21,6 +21,7 @@ def slowprint(sentence, x):
         time.sleep(x)
     print()
 
+
 class Bankai:
     def __init__(self):
         self.name = "Bankai"
