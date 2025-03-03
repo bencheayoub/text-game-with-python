@@ -50,7 +50,6 @@ class prince:
         self.health = 120
         self.defence = 30
 
-
 prince = prince()
 
 
