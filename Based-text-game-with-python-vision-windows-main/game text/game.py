@@ -12,10 +12,8 @@ def clear():
     else:  # Unix/Linux/MacOS
         subprocess.run('clear', shell=True)
 
-
 def lucky():
     return random.randrange(0, 100)
-
 
 def slowprint(sentence, x):
     for char in sentence:
