@@ -39,7 +39,6 @@ class jhon:
         self.health = 100
         self.defence = 30
 
-
 jhon = jhon()
 
 
