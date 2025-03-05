@@ -130,6 +130,7 @@ class monsterY:
         self.defence = 34
 monsterY = monsterY()
 
+
 class Bankai0:
     def __init__(self, name="Bankai with form of Kaidoz"):
         self.name = name
@@ -138,6 +139,7 @@ class Bankai0:
         self.defence = 50
 
 Bankai0 = Bankai0()
+
 
 class Bankai1:
     def __init__(self, name="Bankai with the first form of Kaidoz"):
@@ -148,13 +150,13 @@ class Bankai1:
 
 Bankai1 = Bankai1()
 
+
 class Bankai2:
     def __init__(self, name="Bankai with the second form of Kaidoz"):
         self.name = name
         self.power = 30000
         self.health = 40000
         self.defence = 50
-
 
 Bankai2 = Bankai2()
 
@@ -166,7 +168,6 @@ class Bankai3:
         self.health = 100000
         self.defence = 50
 
-
 Bankai3 = Bankai3()
 
 
@@ -176,7 +177,6 @@ class Bankai4:
         self.power = 800000
         self.health = 1000000
         self.defence = 50
-
 
 Bankai4 = Bankai4()
 
