@@ -61,6 +61,7 @@ class Ares:
 
 Ares = Ares()
 
+
 class haouari:
     def __init__(self, name="El-haouari"):
         self.name = name
@@ -69,6 +70,7 @@ class haouari:
         self.defence = 70
 
 haouari = haouari()
+
 
 class enemy:
     def __init__(self, name="the enemy"):
@@ -79,6 +81,7 @@ class enemy:
 
 enemy = enemy()
 
+
 class strenemy:
     def __init__(self, name="strong enemy"):
         self.name = name
@@ -87,6 +90,7 @@ class strenemy:
         self.defence = 30
 
 strenemy = strenemy()
+
 
 class martin:
     def __init__(self, name="martin"):
@@ -97,6 +101,7 @@ class martin:
 
 martin = martin()
 
+
 class elder:
     def __init__(self, name="the elder"):
         self.name = name
@@ -106,6 +111,7 @@ class elder:
 
 elder = elder()
 
+
 class lizard:
     def __init__(self, name="the lizard"):
         self.name = name
@@ -114,6 +120,7 @@ class lizard:
         self.defence = 48
 
 lizard = lizard()
+
 
 class monsterY:
     def __init__(self, name="The monster of Yskina"):
