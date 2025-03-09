@@ -4,7 +4,6 @@ import subprocess
 import random
 from Arts import *
 
-
 def clear():
     input("Press Enter to clear the screen...")
     if os.name == 'nt':  # in the case of Windows
